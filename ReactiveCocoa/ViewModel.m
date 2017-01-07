@@ -22,15 +22,16 @@
     self.cellHeight = rect.size.height;
 }
 
-NSString * const _recognizerScale = @"_recognizerScale";
+
+static char height;
+
 - (void)setCellHeight:(CGFloat)cellHeight {
     
-    objc_setAssociatedObject(self, (__bridge const void *)(_recognizerScale), @(cellHeight), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, &height, @(cellHeight), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 - (CGFloat)cellHeight {
-    
-    NSNumber *scaleValue = objc_getAssociatedObject(self, (__bridge const void *)(_recognizerScale));
-    return scaleValue.floatValue;
+    NSNumber *number = objc_getAssociatedObject(self, &height);
+    return number.floatValue;
 }
 
 

@@ -46,7 +46,6 @@ NSInteger const KsaveDownloadFileFialure = 4004;
                 dispatch_async(dispatch_get_main_queue(), ^{
                     [subscriber sendError:error];
                 });
-                
             }
             else {
                 if (filePath) {
@@ -75,7 +74,6 @@ NSInteger const KsaveDownloadFileFialure = 4004;
                         [subscriber sendNext:saveUrl];
                         [subscriber sendCompleted];
                     });
-                    
                 }
                 else {
                     dispatch_async(dispatch_get_main_queue(), ^{

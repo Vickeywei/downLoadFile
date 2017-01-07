@@ -9,6 +9,9 @@
 #import "ViewController.h"
 #import "DownLoadManager.h"
 #import <ReactiveCocoa.h>
+#import "RequestManager.h"
+#import "Model.h"
+#import "ViewModel.h"
 @interface ViewController ()<DownLoadFileDelegate>
 
 @end
@@ -18,6 +21,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    /*
+     下载文件
+     
+     
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(80, 80, 200, 200)];
     [self.view addSubview:imageView];
     DownLoadManager *manager = [[DownLoadManager alloc] init];
@@ -50,6 +57,23 @@
      [manager downLoadMaxFileWithUrl:@"http://dlsw.baidu.com/sw-search-sp/soft/9d/25765/sogou_mac_32c_V3.2.0.1437101586.dmg" filePath:cachePath mimeType:@"dmg" fileName:@"1993" delegate:(id)self];
     //使用NSOutputStrem下载大文件
     [manager downLoadMaxFileWithUrl:@"http://dlsw.baidu.com/sw-search-sp/soft/9d/25765/sogou_mac_32c_V3.2.0.1437101586.dmg" filePath:cachePath mimeType:@"dmg" fileName:@"1993" delegate:(id)self];
+    */
+    
+    ViewModel *viewModel = [[ViewModel alloc] init];
+    [[viewModel requeData] subscribeNext:^(id x) {
+        Model *model = x;
+        ListModel *list = model.tList[0];
+        NSLog(@"%@,%f",list,list.cellHeight);
+        
+
+    } error:^(NSError *error) {
+        
+    }];
+    
+
+    
+    
+    
     
     
     // Do any additional setup after loading the view, typically from a nib.

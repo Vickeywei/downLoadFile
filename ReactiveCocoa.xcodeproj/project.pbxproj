@@ -14,6 +14,9 @@
 		3E8C509F1E1CE0EB00BA397E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E8C509E1E1CE0EB00BA397E /* Assets.xcassets */; };
 		3E8C50A21E1CE0EB00BA397E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E8C50A01E1CE0EB00BA397E /* LaunchScreen.storyboard */; };
 		3E8C50D11E1DE4CF00BA397E /* DownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8C50D01E1DE4CF00BA397E /* DownLoadManager.m */; };
+		3EDC405E1E20AE4600C1A0BC /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC405D1E20AE4600C1A0BC /* RequestManager.m */; };
+		3EDC40611E20AEB200C1A0BC /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC40601E20AEB200C1A0BC /* Model.m */; };
+		3EDC40641E20B8F600C1A0BC /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC40631E20B8F600C1A0BC /* ViewModel.m */; };
 		5D76865F2A53AA949FFB8ECB /* libPods-ReactiveCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D839379E2066F3D8471B91 /* libPods-ReactiveCocoa.a */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +33,12 @@
 		3E8C50A31E1CE0EB00BA397E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E8C50CF1E1DE4CF00BA397E /* DownLoadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownLoadManager.h; sourceTree = "<group>"; };
 		3E8C50D01E1DE4CF00BA397E /* DownLoadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownLoadManager.m; sourceTree = "<group>"; };
+		3EDC405C1E20AE4600C1A0BC /* RequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
+		3EDC405D1E20AE4600C1A0BC /* RequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestManager.m; sourceTree = "<group>"; };
+		3EDC405F1E20AEB200C1A0BC /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		3EDC40601E20AEB200C1A0BC /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		3EDC40621E20B8F600C1A0BC /* ViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		3EDC40631E20B8F600C1A0BC /* ViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
 		593D75EF208BE0F52BDD6FA1 /* Pods-ReactiveCocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoa.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoa/Pods-ReactiveCocoa.release.xcconfig"; sourceTree = "<group>"; };
 		67D839379E2066F3D8471B91 /* libPods-ReactiveCocoa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveCocoa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D77CE3F2D03F344D00B32A /* Pods-ReactiveCocoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoa/Pods-ReactiveCocoa.debug.xcconfig"; sourceTree = "<group>"; };
@@ -72,6 +81,12 @@
 				3E8C50961E1CE0EB00BA397E /* AppDelegate.m */,
 				3E8C50981E1CE0EB00BA397E /* ViewController.h */,
 				3E8C50991E1CE0EB00BA397E /* ViewController.m */,
+				3EDC40621E20B8F600C1A0BC /* ViewModel.h */,
+				3EDC40631E20B8F600C1A0BC /* ViewModel.m */,
+				3EDC405C1E20AE4600C1A0BC /* RequestManager.h */,
+				3EDC405D1E20AE4600C1A0BC /* RequestManager.m */,
+				3EDC405F1E20AEB200C1A0BC /* Model.h */,
+				3EDC40601E20AEB200C1A0BC /* Model.m */,
 				3E8C50CF1E1DE4CF00BA397E /* DownLoadManager.h */,
 				3E8C50D01E1DE4CF00BA397E /* DownLoadManager.m */,
 				3E8C509B1E1CE0EB00BA397E /* Main.storyboard */,
@@ -231,10 +246,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EDC405E1E20AE4600C1A0BC /* RequestManager.m in Sources */,
 				3E8C509A1E1CE0EB00BA397E /* ViewController.m in Sources */,
 				3E8C50971E1CE0EB00BA397E /* AppDelegate.m in Sources */,
+				3EDC40611E20AEB200C1A0BC /* Model.m in Sources */,
 				3E8C50941E1CE0EB00BA397E /* main.m in Sources */,
 				3E8C50D11E1DE4CF00BA397E /* DownLoadManager.m in Sources */,
+				3EDC40641E20B8F600C1A0BC /* ViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

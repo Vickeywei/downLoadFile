@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "88FE0E7DB2A85FBA6025E76105AF5A00AE01ADAA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "88FE0E7DB2A85FBA6025E76105AF5A00AE01ADAA" : 9223372036854775807,
+    "E6C80D82D4511D7DC6E9F269463D9196CB82FE01" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "467FC0B6-2F75-4D59-82CD-2E0E5581090E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "88FE0E7DB2A85FBA6025E76105AF5A00AE01ADAA" : "ReactiveCocoa\/",
+    "E6C80D82D4511D7DC6E9F269463D9196CB82FE01" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ReactiveCocoa",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ReactiveCocoa.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Vickeywei\/downLoadFile.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "88FE0E7DB2A85FBA6025E76105AF5A00AE01ADAA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Vickeywei\/networkingDownLoadFile.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E6C80D82D4511D7DC6E9F269463D9196CB82FE01"
+    }
+  ]
+}
